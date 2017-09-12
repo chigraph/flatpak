@@ -4,9 +4,9 @@ REPODIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 set -xe
 
-rm -rf repo app
+rm -rf repo chigraphgui
 
-flatpak-builder --repo=repo app org.chigraph.chigraphgui.json
+flatpak-builder --repo=repo chigraphgui org.chigraph.chigraphgui.json
 
 flatpak build-sign repo \
   --gpg-sign=2F04F8C4132EF3BF0264FAE1D345FAFC910AA344 \

@@ -1,13 +1,13 @@
  
 {
     "id": "org.chigraph.chigraphgui",
-    "branch": "master",
+    "branch": "nightly",
     "runtime": "org.kde.Platform",
     "runtime-version": "5.9",
     "sdk": "org.kde.Sdk",
     "command": "chigraphgui",
     "tags": ["nightly"],
-    "desktop-file-name-prefix": "(Nightly) ",
+    "desktop-file-name-prefix": "",
     "finish-args": ["--share=ipc", "--socket=x11", "--socket=wayland", "--filesystem=host", "--env=QT_QPA_PLATFORM=flatpak" ],
 
     "separate-locales": false,

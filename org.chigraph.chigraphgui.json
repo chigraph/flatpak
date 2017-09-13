@@ -22,7 +22,8 @@
             "config-opts": [
                 "-DCG_BUILD_DEBUGGER=OFF",
                 "-DBUILD_EXAMPLES=OFF",
-                "-DCG_BUILD_TESTS=OFF"
+                "-DCG_BUILD_TESTS=OFF",
+                "-DCG_BUILD_FOR_FLATPAK=ON"
             ],
             "sources": [
                 { "type": "git", "url": "https://github.com/chigraph/chigraph-gui" }
